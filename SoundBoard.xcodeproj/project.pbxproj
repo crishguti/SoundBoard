@@ -14,6 +14,8 @@
 		3D42B3FD2CB726FB00ED011F /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D42B3FB2CB726FB00ED011F /* SoundBoard.xcdatamodeld */; };
 		3D42B3FF2CB726FD00ED011F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D42B3FE2CB726FD00ED011F /* Assets.xcassets */; };
 		3D42B4022CB726FD00ED011F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D42B4002CB726FD00ED011F /* LaunchScreen.storyboard */; };
+		3D664FA02CB7336900ECA2B4 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D664F9F2CB7336900ECA2B4 /* SoundViewController.swift */; };
+		3D664FA22CB739B300ECA2B4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D664FA12CB739B300ECA2B4 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3D42B3FE2CB726FD00ED011F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D42B4012CB726FD00ED011F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D42B4032CB726FD00ED011F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D664F9F2CB7336900ECA2B4 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		3D664FA12CB739B300ECA2B4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				3D42B3F62CB726FB00ED011F /* ViewController.swift */,
 				3D42B3F82CB726FB00ED011F /* Main.storyboard */,
 				3D42B3FE2CB726FD00ED011F /* Assets.xcassets */,
+				3D664FA12CB739B300ECA2B4 /* Media.xcassets */,
 				3D42B4002CB726FD00ED011F /* LaunchScreen.storyboard */,
 				3D42B4032CB726FD00ED011F /* Info.plist */,
 				3D42B3FB2CB726FB00ED011F /* SoundBoard.xcdatamodeld */,
+				3D664F9F2CB7336900ECA2B4 /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				3D42B4022CB726FD00ED011F /* LaunchScreen.storyboard in Resources */,
 				3D42B3FF2CB726FD00ED011F /* Assets.xcassets in Resources */,
+				3D664FA22CB739B300ECA2B4 /* Media.xcassets in Resources */,
 				3D42B3FA2CB726FB00ED011F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				3D42B3F72CB726FB00ED011F /* ViewController.swift in Sources */,
 				3D42B3F32CB726FB00ED011F /* AppDelegate.swift in Sources */,
 				3D42B3F52CB726FB00ED011F /* SceneDelegate.swift in Sources */,
+				3D664FA02CB7336900ECA2B4 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
